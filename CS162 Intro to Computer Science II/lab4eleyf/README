@@ -1,0 +1,27 @@
+README
+
+eleyf lab 4 recursive functions
+
+This program demonstrates the use of three recursive functions.
+
+1. printing the reverse of a string
+2. calculating the sum of an array of integers
+3. calculating the triangular of an integer
+
+To utilize the program:
+
+1. type "make"
+2. type "lab4"
+3. type in the choice (1 - 3) of the function that you want to use or 4 to exit the program
+
+	1. 	Reverse of string: type in a string and hit enter.
+		The string will be printed in reverse order.
+
+	2.	Sum of array: the function will calculate the sum of an array of up to 20 integers.
+		Type in each integer amount followed by a space. type in # to indicate the end of 
+		the array.
+
+		EX. for array [1, 2, 3, 4, 5]
+		type in "1 2 3 4 5 #"
+
+	3.	Triangular: type in an inter. The triangular of the interger will be printed.

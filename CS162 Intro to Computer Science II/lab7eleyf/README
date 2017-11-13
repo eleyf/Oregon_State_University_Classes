@@ -1,0 +1,48 @@
+eleyf
+CS162 F2016
+lab 7
+
+
+This lab implements a linear search, a binary search, and an insert sort.
+
+The folder contains 4 test files:
+
+noZero: contains random numbers 1 - 9.
+early: contains random numbers 0 - 9 with zero early in the sequence.
+middle: contains random numbers 0 - 9 with zero in the middle in the sequence.
+late: contains random numbers 0 - 9 with zero late in the sequence.
+
+1. Type make to create the executable.
+2. Type lab7 to run the program.
+3. Type 1 to run a linear search on one of the test files.
+	When prompted enter one of the file names; noZero, early, middle, late.
+	Sequence data is listed below.
+4. Type 2 to sort one of the test files.
+	When prompted type in the name of the file you want the sorted list written to.
+5. Type 3 to run a binary search on one of the sorted files created in step 4.
+	The position will corespond to the number entered since the list is now sorted.
+
+
+noZero:   8 5 4 9 2 3 6 1 7
+position: 0 1 2 3 4 5 6 7 8
+
+early:   8 0 5 4 9 2 3 6 1 7
+postion: 0 1 2 3 4 5 6 7 8 9
+
+middle:  8 5 4 9 2 0 3 6 1 7
+postion: 0 1 2 3 4 5 6 7 8 9
+
+late:    8 5 4 9 2 3 6 1 0 7
+postion: 0 1 2 3 4 5 6 7 8 9
+
+
+NOTE:
+
+The linear search algorithm used is based on the example given in
+the CS162 Intro to Progamming II Searching slide page 6.
+
+The insert sort algorithm used is based on the example given in C++
+Early Objects 8th Edition - Gaddis pg 611.
+
+The binary search algorithm used is based on the example given in
+the CS162 Intro to Progamming II Searching slide page 11.

@@ -1,0 +1,25 @@
+eleyf
+cs162 lab6
+
+The program allows the user to build a stack and a queue of integers.
+
+Type make to build the program.
+Type lab6 to begin the program.
+
+A stack operates as a first in last out structure.
+A queue operates as a first in first out structure.
+
+From the main menu choose which data type you want to use.
+
+1. Stack
+2. Queue
+
+or 3 to exit the program.
+
+Next choose how you want to manipulate the data list.
+
+1. Add an integer to the list.
+2. Remove an integer from the list.
+
+or 3 to return to the main menu.
+

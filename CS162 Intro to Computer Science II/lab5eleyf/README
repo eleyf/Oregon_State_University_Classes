@@ -1,0 +1,23 @@
+eleyf
+CS162 Lab5
+
+The program is incomplete. The main program makes 5 steps to demonstrate
+that the virtual move function works for both the Ant and Doodlebug classes.
+
+I was unable to successfully create a =operator overload for the Grid class.
+Something in its internal logic is creating a seg fault.
+
+The basic logic of the completed program would be:
+
+	Get number of steps from user
+	Create a main grid and a temp grid
+	Create 5 Ants and 100 Doodlebugs in the main grid
+	Loop through main grid
+		If Doodlebug exists
+			Eat Ant or plain move
+	Update temp grid
+	Loop through main grid
+		If Ant exists
+			Move
+	Update temp grid
+	Set main grid to temp grid

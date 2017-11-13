@@ -1,0 +1,27 @@
+eleyf
+cs162 assignment4
+
+
+The program plays a combat game between two lineups of fighters
+created by the user.
+
+Type "make" to build the program.
+Type "assignment4" to begin the program.
+When prompted choose the number of fighters in each lineup.
+Choose the type of fighters in the lineup for each player.
+
+
+NOTE: I did not receive feedback on assignment 3 until Saturday 11/19/16.
+	  The program does not allow users to enter a name for each fighter.
+	  When I attempted to add a name member to the Creature class it created
+	  seg faults. Due to lack of time I opted to display the Creature types
+	  to verify the lineup queues and defeated list. The queues and list
+	  are displayed as Enum values of the creature types as follows.
+
+	  0 = VAMPIRE, 1 = BARBARIAN, 2 = BLUEMEN, 3 = MEDUSA, 4 = HARRY POTTER
+
+	  After each round of battle the winner of that round is declared. The
+	  updated scores, the lineups of each player, and the defeated list are
+	  also displayed.
+
+	  After a lineup has been defeated the final score and winner is displayed.

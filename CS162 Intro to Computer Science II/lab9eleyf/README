@@ -1,0 +1,25 @@
+eleyf
+cs162 lab9
+
+This program implements a STL queue to simulate a buffer
+and a STL stack to create a palindrome.
+
+Type make to build the program.
+Type lab9 to begin the program.
+
+From the main menu choose 1 to simulate a buffer,
+choose 2 to create a palindrome, or
+choose 3 to exit the program. 
+
+1. Buffer simulation
+	a. Enter the percentage values created to enter the
+		buffer. The percentage should be an integer between
+		0 and 100. Ex. 25 for 25% chance of adding to buffer.
+	b. Enter the percentage values to be removed from the
+		buffer. The percentage should be an integer between
+		0 and 100. Ex. 75 for 75% chance of adding to buffer.
+	c. Enter the number of rounds to run the simulation.
+
+2. Palindrome
+	a. When prompted enter a string of characters.
+	b. The palindrome of the string will be displayed.

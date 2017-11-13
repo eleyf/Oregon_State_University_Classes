@@ -1,0 +1,18 @@
+eleyf
+cs162 lab10
+
+This program calculates a Fibonacci number using an iterative method
+and a recursive method and calculates the respective times to do each.
+
+The time calculation makes use of code from:
+	https://www.cs.rutgers.edu/~pxk/416/notes/c-tutorials/gettime.html
+
+The Fibonacci methods make use of code from:
+	https://www.codeproject.com/tips/109443/fibonacci-recursive-and-non-recursive-c
+
+
+Type "make" to build the program.
+Type "lab10" to begin the program.
+
+From the main menu choose 1 to calculate a Fibonacci number,
+or choose 2 to exit the program. 

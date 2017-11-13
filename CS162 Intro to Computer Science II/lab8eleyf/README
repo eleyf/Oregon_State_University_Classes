@@ -1,0 +1,23 @@
+eleyf
+cs162 lab8
+
+The program allows the user to build a doubly linked circular queue
+of positive integers.
+
+Type make to build the program.
+Type lab8 to begin the program.
+
+The queue operates as a first in first out structure.
+
+From the main menu choose which function you want to use.
+
+1. Enter a value to be added to the queue
+2. Display first node (front) value
+3. Remove first node (front) value
+4. Display the queue contents
+or
+5. To exit the program
+
+NOTE: If the queue is empty the first node functions will
+return a value of -1.
+
